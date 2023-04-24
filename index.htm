@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- @author Kayla Walker, Kayla Bike Shop Index Page  
+snap.mp3 Audio track from: https://freesound.org/
+Southern Illinois University -->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Kayla's Bicycle Shop</title> 
+        <link rel="shortcut icon" href="images/ .png">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <meta name="description" content="Bicycles for Sale - Find the perfect bike for your needs.">
+        <meta name="keywords" content="bicycles, bikes, cycling, ride, Kayla, bike, Shop">       
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+    </head>
+    <body>
+            <figcaption>Kayla's Bicycles</figcaption>
+            <figure class="bike">
+            <img  class="bike" src="images/h4.png"/>
+            <img class="bicycles" src="images/h3.png"/>
+            </figure> 
+            
+        <header>
+        <!--   Audio Track  -->
+        <audio controls autoplay loop hidden>
+           <source src="audio/snap.mp3" type="audio/mpeg">
+        </audio>
+     
+        </header> 
+       
+         <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.htm" class="current">Home</a></li> 
+                <li><a href="sales.htm">Sales</a></li> 
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="services.htm" >Services</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+            <main>
+            <h2>The journey is yours, let us supply the ride!</h2>
+            
+            <p class ="first">Come on down to our shop and check out some of our bikes. We have bikes with or wthout tassles on the handlebars! We also carry childrens bikes!</p>
+            <p >We only carry the best, We have 5 different models!</p>
+            <!-- block quote -->
+            <blockquote>Cycle into the world of endless possibilities with our diverse range of <strong>brand name bikes</strong>.
+            </blockquote>
+            <!--list of bikes -->
+            <ol>
+                <li>GT</li> <li>TREK</li> <li>Gary Fisher</li><li>HUFFY</li><li>Schwinn</li>
+            </ol> 
+              <!--inline element -->
+            <p>If you don't see the model you want <em>we can order something you like.</em></p> 
+            <p>Save a bundle at our <strong>big yearend sale</strong>.</p> 
+            </main>
+            <p>How to contact Kayla Walker &amp; Staff:</p> 
+        
+            <address>1-800-444-1111<br>
+            <pre>
+            
+<!-- my address -->
+Store Address:
+Kayla's Bicycle Shop
+11234 Bike Lane
+Carbondale,IL
+62966</address>
+            </pre> 
+     </body>
+
+</html>
