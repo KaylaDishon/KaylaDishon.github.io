@@ -1,15 +1,8 @@
 <!DOCTYPE html>
-<!--  TEMP @author Kayla Walker Recycle Index Page  
-
-snap.mp3 Audio track from: https://freesound.org/
-
-Southern Illinois University  Developed: 5-2-2023  Tested: 5-9-2023 
--->
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
-    <title>Walker's Recycle</title>
+    <title>Walker's Recycle Center</title>
     <link rel="stylesheet" href="styles/home_print.css" media="print">
     <link rel="shortcut icon" href="images/webicon.ico">
     <link rel="stylesheet" href="styles/main.css">
@@ -21,74 +14,69 @@ Southern Illinois University  Developed: 5-2-2023  Tested: 5-9-2023
             $('#nav_menu').slicknav({ prependTo: "#mobile_menu" });
         }); 
     </script>
-
-    <meta name="description" content="A small bike shop with 5 different brands of bike">
-    <meta name="keywords" content="walker, Pro, cycle, Trek, GT, BMX, Road Bikes, Mountain Bikes, 29'ers">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+php
+Copy code
+<meta name="description" content="Walker's Recycle Center - your one-stop shop for eco-friendly waste disposal">
+<meta name="keywords" content="recycling, waste disposal, eco-friendly, reduce, reuse, recycle">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <figcaption>The Walker Recycle Center.</figcaption>
-        <figure class="cute">
+    <figcaption>Welcome to Walker's Recycle Center.</figcaption>
+    <figure class="cute">
         <img class="cute" src="images/h4.png" />
         <img class="cuter" src="images/h3.png" />
-        </figure>
-
+    </figure>
     <header>
-        <!--  Audio Track  -->
-        <audio controls autoplay loop hidden>
-            <source src="audio/snap.mp3" type="audio/mpeg">
-        </audio>
+    <!--  Audio Track  -->
+    <audio controls autoplay loop hidden>
+        <source src="audio/snap.mp3" type="audio/mpeg">
+    </audio>
+</header>
 
-    </header>
+<!-- Navigation Menu -->
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.htm" class="current">Home</a></li>
+        <li><a href="products.htm">Products</a></li>
+        <li><a href="recyclables.htm">Recyclables</a></li>
+        <li><a href="history.htm">History</a></li>
+        <li><a href="services.htm">Services</a></li>
+        <li><a href="contact.htm" class="lastitem">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- Navigation Menu -->
-    <nav id="mobile_menu"></nav>
-    <nav id="nav_menu">
-        <ul>
-            <li><a href="index.htm" class="current">Home</a></li>
-            <li><a href="sales.htm">Products</a></li>
-            <li><a href="rentals.htm">Recyclables</a></li>
-            <li><a href="history.htm">History</a></li>
-            <li><a href="services.htm">Services</a></li>
-            <li><a href="contact.htm" class="lastitem">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Reduce. Reuse. Recycle.</h2>
+<main>
+    <h2>Reduce. Reuse. Recycle.</h2>
+    <p class="first">At Walker's Recycle Center, we believe that every little bit counts when it comes to protecting the environment. That's why we provide a convenient and eco-friendly way to dispose of your waste through recycling.</p>
+    <p>We accept a variety of materials for recycling, including:</p>
+    <ul>
+        <li>Paper: including newspapers, magazines, cardboard, and office paper.</li>
+        <li>Metals: such as aluminum cans, tin cans, and steel cans.</li>
+        <li>Glass: including glass bottles and jars.</li>
+        <li>Organic waste - including food scraps, yard waste, and compostable materials</li>
+        <li>Plastics: such as water bottles, milk jugs, shampoo bottles, and food containers.</li>
+        <li>Batteries: including household batteries and car batteries.</li>
+        <li>Textiles: such as clothing and linens.</li>
+    </ul>
+    
+    <p>We also offer pickup services for businesses and organizations looking to recycle large volumes of materials. Our team is committed to providing efficient and reliable service, and we work with our clients to develop customized recycling solutions tailored to their specific needs.</p>
 
-        <p class="first">Come on down to our shop and check out some of our bikes. We have bikes with or wthout tassles
-            on the handlebars! We also carry childrens bikes!</p>
-        <p>We only carry the best, We have 5 different models!</p>
-        <!-- block quote -->
-        <blockquote>Specializing in: Road Bikes, Mountain Bikes, 29'ers, and BMX Bikes!
-        </blockquote>
-        <!--list of bikes -->
-        <ol>
-            <li>Paper: including newspapers, magazines, cardboard, and office paper.</li>
-            <li>Metals: such as aluminum cans, tin cans, and steel cans.</li>
-            <li>Glass: including glass bottles and jars.</li>
-            <li>Organic waste - including food scraps, yard waste, and compostable materials</li>
-            <li>Plastics: such as water bottles, milk jugs, shampoo bottles, and food containers.</li>
-            <li>Batteries: including household batteries and car batteries.</li>
-            <li>Textiles: such as clothing and linens.</li>
-        </ol>
-        <!--inline element -->
-        <p>If you don't see the model you want <em>we can order something you like.</em></p>
-        <p>Save a bundle at our <strong>big yearend sale</strong>.</p>
-    </main>
-    <p>How to contact the Center &amp; Staff:</p>
+    <h3>Visit Us Today</h3>
+    <p>If you have any questions about our recycling services or would like to schedule a pickup, please don't hesitate to contact us or visit our center. Our friendly and knowledgeable staff are always happy to assist you and help you find the best recycling solution for your needs.</p>
+    
+    <p>Thank you for considering Walker's Recycle Center for your recycling needs. Let's work together to create a cleaner, more sustainable future.</p>
+</main>
 
-    <address>1-844-333-1111<br></address>
-    <pre>
+<footer>
+    <p>&copy; 2023 Walker's Recycle</p>
+</footer>
 
-<!-- my address -->
-Store Address:
-Walker's Recycle
-321 Green Way
-Carbondale,IL
-62901
-            </pre>
+<!-- Navigation Menu - SlickNav Mobile Menu -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#nav_menu').slicknav({ prependTo: "#mobile_menu" });
+    });
+</script>
 </body>
-
 </html>
