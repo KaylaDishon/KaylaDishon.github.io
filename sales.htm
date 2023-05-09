@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- @author Kayla Walker, Products Page, Southern Illinois University  Developed:   -->
+<!-- Developed by Kayla Walker for Renewable Products at Southern Illinois University -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -14,58 +14,57 @@
                 $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
             }); 
         </script>
-        <meta name="description" content="Recyclables Sales"> <meta name="keywords" content="miller, sales, bicycle, mountain bike, road bike, MTB, GT, ascend">
+        <meta name="description" content="Recyclables Sales">
+        <meta name="keywords" content="miller, sales, bicycle, mountain bike, road bike, MTB, GT, ascend">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <figcaption>Recyclables Sales</figcaption>
-            <figure class="cute">
-            <img  class="cute" src="images/h4.png"/>
+        <figure class="cute">
+            <img class="cute" src="images/h4.png"/>
             <img class="cuter" src="images/h3.png"/>
-            </figure> 
-            
-        <header>
-                 </header>
-        <form action="search-results.php" method="GET">
-  <input type="text" name="q" placeholder="Search...">
-  <button type="submit">Search</button>
-</form>
-
-        <!-- Navigation Menu  -->
-        <nav id="mobile_menu"></nav> 
-        <nav id="nav_menu">
-            <ul>
-                <li><a href="index.htm">Home</a></li> 
-                <li><a href="sales.htm"class="current">Products</a></li> 
-                <li><a href="rentals.htm" >Recyclables</a></li>
-                <li><a href="history.htm" >History</a></li>
-                <li><a href="contact.htm" >Contact</a></li>
-                <li><a href="services.htm" class="lastitem">Services</a></li> 
-            </ul> 
-        </nav>
-           <main>
-            <!-- Small Apple m4v converted with VLC to an ogg file, wont play in safari because resolution is not high enough must be >720p, but had to export under 1mb for requirments  -->
-            <embed 
-                   autoplay="true"
-                   type="video/mp4"
-                   src="video/trashmasher.mp4" width="720" height="720">
-            <!-- List of on Sale Bikes  -->
-            <h2>1.) Road Bike </h2>
-            <p class ="first">2019 26" Trek Ascend, your choice of components, starts at $2,000.00</p>
-            <h2>2.) Road Bike - TRK</h2>
-            <p class ="first">2019 26" Trek 5000 Bike, your choice of components, starts at $1,000.00</p>
-        </main>
-         
-        <main>
-            
-            <h2>3.) MTB - GT</h2>
-            <p class ="first">2019 29" GT Mountain Bike, your choice of components, starts at $700.00</p>
-            <h2>4.) MTB - Trek</h2>
-            <p class ="first">2019 29" Trek Mountain Bike, your choice of components, starts at $800.00</p>
-        </main>
+        </figure> 
+        
+    <header></header>
     
-         
-            
-    </body>
+    <form action="search-results.php" method="GET">
+        <input type="text" name="q" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
 
+    <!-- Navigation Menu -->
+    <nav id="mobile_menu"></nav> 
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.htm">Home</a></li> 
+            <li><a href="sales.htm" class="current">Products</a></li> 
+            <li><a href="rentals.htm">Recyclables</a></li>
+            <li><a href="history.htm">History</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+            <li><a href="services.htm" class="lastitem">Services</a></li> 
+        </ul> 
+    </nav>
+    
+    <main>
+        <!-- Video autoplaying -->
+        <video autoplay controls width="720" height="720">
+            <source src="video/trashmasher.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- List of on Sale Bikes  -->
+        <h2>1.) Road Bike </h2>
+        <p class="first">2019 26" Trek Ascend, your choice of components, starts at $2,000.00</p>
+        <h2>2.) Road Bike - TRK</h2>
+        <p class="first">2019 26" Trek 5000 Bike, your choice of components, starts at $1,000.00</p>
+    </main>
+     
+    <main>   
+        <h2>3.) MTB - GT</h2>
+        <p class="first">2019 29" GT Mountain Bike, your choice of components, starts at $700.00</p>
+        <h2>4.) MTB - Trek</h2>
+        <p class="first">2019 29" Trek Mountain Bike, your choice of components, starts at $800.00</p>
+    </main>
+    
+</body>
 </html>
