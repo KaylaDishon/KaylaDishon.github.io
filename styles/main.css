@@ -2,8 +2,9 @@
 
 
 
-/* tablet landscape and desktop layout (960px or more) */ 
 
+/* tablet landscape and desktop layout (960px or more) */ 
+<video src="video/trashmasher.mp4" width="500" height="400" autoplay></video>
 @media only screen and (max-width: 4000px) { 
     
 h1 {
