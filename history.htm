@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<!-- TEMP @author Kayla Walker Contact Page, Southern Illinois University Southern Illinois University  Developed: 9-1-2021  Tested: 10-13-2021  -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Contact</title> 
+        <title>History | Recycle Center</title> 
         <link rel="shortcut icon" href="images/earthicon.ico">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/slicknav.css"> 
@@ -14,24 +13,25 @@
                 $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
             }); 
         </script>
-        <meta name="description" content="Recyclables Contact"> <meta name="keywords" content="walker, contact, recycle, staff">
+        <meta name="description" content="Recycle Center History"> 
+        <meta name="keywords" content="recycle, center, history">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /* Flexible Box Layout */
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .box {
+                flex: 1;
+                padding: 10px;
+            }
+            .box img {
+                max-width: 100%;
+            }
+        </style>
     </head>
     <body>
-        <figcaption>History</figcaption>
-            <figure class="cute">
-            <img  class="cute" src="images/h3.png"/>
-            <img class="cuter" src="images/huffy01.png"/>
-            </figure> 
-            
-       
-    <header>
-        <!--  Audio Track  -->
-        <audio controls autoplay loop hidden>
-            <source src="audio/snap.mp3" type="audio/mpeg">
-        </audio>
-
-    </header>
         <!-- Navigation Menu -->
         <nav id="mobile_menu"></nav> 
         <nav id="nav_menu"> 
@@ -44,9 +44,21 @@
                 <li><a href="contact.htm" class="lastitem">Contact</a></li>
             </ul> 
         </nav>  
-     
-           
-     
-    </body>
 
+        <!-- Page Content -->
+        <div class="container">
+            <div class="box">
+                <h1>Our History</h1>
+                <p>The Recycle Center was established in 2019 with the mission to reduce waste and promote sustainability in our community. Since then, we have grown to become one of the leading recyclables centers in the region, serving hundreds of customers each week.</p>
+                <p>We are proud to have helped divert thousands of tons of waste from landfills, and look forward to continuing our work towards a cleaner, greener future.</p>
+            </div>
+            <div class="box">
+                <h2>Gallery</h2>
+                <figure class="cute">
+                    <img src="images/h3.png" alt="Recycle Center Gallery Image 1">
+                    <img src="images/huffy01.png" alt="Recycle Center Gallery Image 2">
+                </figure>
+            </div>
+        </div>
+    </body>
 </html>
